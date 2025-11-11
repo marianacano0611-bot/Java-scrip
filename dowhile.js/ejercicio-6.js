@@ -1,0 +1,11 @@
+let numero = [3, 4, 5, 7, 2, 8, 9, 10]; 
+let i = 0;
+function darmePares(array){
+    do {
+        i++;
+        if (array [i] % 2 === 0){
+            console.log(array[i]);
+        }
+    } while( i < array.length)
+}
+let arrayNuevo = darmePares(numero);
